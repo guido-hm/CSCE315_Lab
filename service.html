@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="style1.css" id="page_style">
     <title>Service Page</title>
 </head>
 
 <body>
+  <script src='functions.js'></script>
     <header>
-      <h1>Guido Herrera</h1>
+      <h1>Service</h1>
     </header>
   
     <nav>
@@ -21,24 +22,37 @@
         <li><a href="pdf/Guido_Herrera_Resume.pdf" target="_blank">Qualifications</a></li>
       </ul>
     </nav>
-    <main>
-        <h2>Aggieland Humane Society</h2>
-          <img class="service_img" src="images/dog.jpg" alt="Dog Image" style="width:256px;height:256px;">
-          <p>I recently signed up to be a volunteer at the Aggieland Humane Society to help out at the animal shelter.
-            After I go to the orientation, I will be able to come in and help with various different tasks including walking dogs,
-            cleaning the shelter, and helping with administrative tasks.
-          </p>
-        <h2>CAMP Camp</h2>
-          <img class="service_img" src="images/campcamp.jpg" alt="CAMP Camp Image" style="width:256px;height:256px;">
-          <p> In the summer of 2019, I volunteered at a summer camp named CAMP camp. CAMP camp is a place where both children
-            and adults with various kinds of disabilities go to enjoy a summer camp specially made with them and their
-            disabilities in mind. I spent a week tagging along to one of the campers, going anywhere they wanted to go,
-            doing all types of activities with them, and making sure he had a blast.
-          </p>
-      </main>
+
+      <main>
+        <div class="row">
+          <div class="column_services">
+            <h2 class="title_services">Aggieland Humane Society</h2>
+            <img class="service_img" src="images/dog.jpg" alt="Dog Image" style="width:256px;height:256px;">
+            <p class="service_p">I recently signed up to be a volunteer at the Aggieland Humane Society to help out at the animal shelter.
+              After I go to the orientation, I will be able to come in and help with various different tasks including walking dogs,
+              cleaning the shelter, and helping with administrative tasks. Click <a class="click_here" href="https://aggielandhumane.org/" target="_blank"> HERE</a>
+              to learn more.</p>
+          </div>
+          
+          <div class="column_services">
+            <h2 class="title_services">CAMP Camp</h2>
+            <img class="service_img" src="images/campcamp.jpg" alt="CAMP Camp Image" style="width:256px;height:256px;">
+            <p class="service_p"> In the summer of 2019, I volunteered at a summer camp named CAMP camp. CAMP camp is a place where both children
+              and adults with various kinds of disabilities go to enjoy a summer camp specially made with them and their
+              disabilities in mind. I spent a week tagging along to one of the campers, going anywhere they wanted to go,
+              doing all types of activities with them, and making sure he had a blast. Click <a class="click_here" href="https://campcamp.org/" target="_blank"> HERE</a>
+              to learn more.</p>
+          </div>
+          
+        </div>
+        </main>
   
-      <footer>
-        <p>Author: Guido Herrera<br>
-        <a href="mailto:guidohm@tamu.edu">guidohm@tamu.edu</a></p>
-      </footer>
+        <footer id="footer">
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+          <!-- Add font awesome icons -->
+          <a href="https://www.linkedin.com/in/guidohm/" class="fa fa-linkedin" target="_blank"></a>
+          <a href="https://www.instagram.com/guidoherrera_00/" class="fa fa-instagram" target="_blank"></a>
+        </footer>
 </html>

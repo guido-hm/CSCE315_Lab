@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="style1.css" id="page_style">
     <title>Technical Page</title>
 </head>
 
 <body>
+  <script src='functions.js'></script>
     <header>
       <h1>Projects</h1>
     </header>
@@ -23,23 +24,36 @@
     </nav>
 
     <main>
-      <h2>Medical Store Inventory</h2>
+    <div class="row">
+      <div class="column_projects">
+        <h2 class="title_projects">Medical Store Inventory</h2>
         <img class="project_img" src="images/medical.png" alt="Medical App Image" style="width:256px;height:256px;">
-        <p>A python app that uses the tkinter GUI module and postgreSQL database used to keep track of medical equipment at a store.
+        <p class="project_p">A python app that uses the <a class="click_here" href="https://tkdocs.com/" target="_blank">tkinter GUI module</a> and <a class="click_here" href="https://www.postgresql.org/" target="_blank">postgreSQL database</a> used to keep track of medical equipment at a store.
             This app is used with uniquely generated barcodes for each piece of equipment and allows users to enter equipment into the inventory,
-            remove inventory by scanning the barcode, look up inventory, and see what was in store on any given date.
-        </p>
-      <h2>Sprouter (Sprout Grower Tracker)</h2>
+            remove inventory by scanning the barcode, look up inventory, and see what was in store on any given date. This app
+            is used at a store in McAllen, TX: <a class="click_here" href="https://thebestmedicalsupply.com/" target="_blank">Best Medical Supply McAllen</a>. Click <a class="click_here" href="https://github.com/guido-hm/bms-inv" target="_blank"> HERE</a> to check the project
+            repository</p>
+      </div>
+      
+      <div class="column_projects">
+        <h2 class="title_projects">Sprouter Store Inventory</h2>
         <img class="project_img" src="images/sprouter.png" alt="Sprouter App Image" style="width:256px;height:256px;">
-        <p> This Sporut Tracker was built using python, tkinter module, and mySQL for the database backend. This project was built for
+        <p class="project_p"> This Sporut Tracker was built using python, tkinter module, and <a class="click_here" href="https://www.mysql.com/" target="_blank">mySQL</a> for the database backend. This project was built for
             my mom, who had decided to start growing brocolli sprouts at home. This app lets you enter all the information regarding the
             sprouts you were growing and method used to grow. It keeps track of all batches, keeps track of water used to water, and reminds
-            you when they must be moved out of the darkness and when they are ready to be harvested.
-        </p>
+            you when they must be moved out of the darkness and when they are ready to be harvested. Click <a class="click_here" href="https://github.com/guido-hm/sprouter" target="_blank"> HERE</a> to check the project
+            repository</p>
+      </div>
+      
+    </div>
     </main>
 
-    <footer>
-      <p>Author: Guido Herrera<br>
-      <a href="mailto:guidohm@tamu.edu">guidohm@tamu.edu</a></p>
+    <footer id="footer">
+      <!-- Add icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+      <!-- Add font awesome icons -->
+      <a href="https://www.linkedin.com/in/guidohm/" class="fa fa-linkedin" target="_blank"></a>
+      <a href="https://www.instagram.com/guidoherrera_00/" class="fa fa-instagram" target="_blank"></a>
     </footer>
 </html>
