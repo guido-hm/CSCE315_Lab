@@ -1,3 +1,4 @@
+
 body {
     background-image: url("images/space.png");
 
@@ -5,15 +6,18 @@ body {
 }
 h1 {
     color: white;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 h2 {
     color:white;
 }
 p {
     color: white;
-    font-family: "Times New Roman", Times, serif;
     font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
 }
 
 ul {
@@ -22,6 +26,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
 }
 li {
     float: left;
@@ -121,6 +127,8 @@ li a {
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
     
 }
 
