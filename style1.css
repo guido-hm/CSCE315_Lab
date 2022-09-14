@@ -169,7 +169,7 @@ li a {
 }
 
 #resumebutton {
-    position:fixed;
+    position:absolute;
     margin: auto;
 }
 
