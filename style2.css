@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/blue_background.jpg");
+    background-image: url("images/blue_background.jpg");
 
     
 }
@@ -63,6 +63,10 @@ li a {
     text-align: center;
 }
 
+.title_qualifications {
+    text-align: center;
+}
+
 p {
     color: black;
     font-family: "Times New Roman", Times, serif;
@@ -117,4 +121,54 @@ p {
    /* Column projects */
 main .column_services{
     height:405px;
+}
+
+
+.qualifications_img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 50%;
+    border: 10px dashed orangered;
+    border-radius: 100%;
+}
+
+/* Paragraph */
+.row .column_qualifications p{
+    transform:translatex(290px) translatey(-230px);
+    width:1010px;
+    background-color: lightblue;
+    border: 10px dashed orangered;
+    padding: 2%;
+}
+   
+   /* Column projects */
+   main .column_qualifications{
+    height:405px;
+}
+
+.stylebutton {
+    width: 220px;
+    height: 50px;
+    border:5px;
+    outline: none;
+    font-weight: bolder;
+    background: rgb(89, 89, 255);
+    cursor: pointer;
+    position: relative;
+    color: white;
+    z-index: 0;
+    border-radius: 100px;
+}
+
+#leftbutton {
+    float: left;
+}
+
+#rightbutton {
+    float: right;
+}
+
+.stylebutton:active {
+    color: orangered
 }
